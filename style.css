@@ -1,0 +1,174 @@
+.body{
+    padding: 0;
+}
+ 
+                                /* Header */
+.navbar-brand > img{
+    width: 100px;
+    padding-right: -80px !important;
+}
+.navbar{
+    background-color: gainsboro !important;
+
+}
+.nav-item {
+    font-weight: bold;
+    color: darkred;
+    padding-left: 30px;
+}
+.nav-item >a{
+    color: darkred !important;
+}
+
+.fa-phone{
+    color:darkorange;
+    width: 20px;
+    box-sizing: border-box !important;
+    font-weight: bold;
+}
+      
+                     /*Main Content */
+        
+    .header1{
+        text-align: center;
+        color: darkred;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+                        
+    .main{
+        display: flex;
+        padding-top: 20px;
+    
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+              
+    }
+          /*Part 1 */
+    .header1-A,.header2-A,.header3-A{
+        
+        display: flex;
+        width: 400px;
+        justify-content: space-between; 
+        padding-top: 30px;      
+    }
+
+.fa-thumbs-up,.fa-camera,.fa-star{
+    font-size: 40px !important;
+    color:gold
+}
+
+      /*Part 2 */
+
+      .demo1-A,.demo2-A,.demo3-A{
+        display: flex;
+        width: 400px;
+        justify-content: space-between;  
+        padding-top: 30px;     
+    }
+
+.fa-cart-plus,.fa-car,.fa-phone-square{
+    font-size: 40px !important;
+    color:gold
+}
+     
+        /*Part 3 */
+
+
+        .last1-A,.last2-A,.last3-A{
+            display: flex;
+            width: 400px;
+            justify-content: space-between;  
+            padding-top: 30px;     
+        }
+    
+    .fa-ambulance,.fa-map-marker,.fa-address-card-o{
+        font-size: 40px !important;
+        color:gold
+    }
+
+.one{
+    color: darkred;
+}
+                 /*FEET */
+   
+.feet{
+    background-color:gainsboro;
+    padding-top: 30px;
+}
+
+.h1{
+    color: darkred;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+              /*FEET 1 */
+.card{
+    height: 400px;
+    width: 400px;
+    
+}
+
+.card > img{
+    height: 250px;
+    width: 300px;
+}
+
+.card:hover{
+    background-color: orange;
+}
+
+.card-body{
+    text-align: center;
+}
+    
+@media screen and (max-width:600px){
+    .card{
+        width: 100%;
+    }
+
+
+}
+
+
+
+                   /* CLIEnT*/
+
+.fa-user-circle-o{
+    font-size: 70px !important;
+    text-align: center;  
+    color: orange; 
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+
+.footer1 > p{
+    color: white !important;
+}
+
+.footer2{
+    color: white;
+    
+
+}
+
+@media screen and (max-width:600px){
+    .footer{
+        width: 500px;
+    }
+
+
+}
+
+
+
